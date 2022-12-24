@@ -20,8 +20,3 @@ html,body{
     height: 100%;
   }
 }
-@media (max-width: 767px){
-  .full-screen-video-container video{
-    display: none;
-  }
-}

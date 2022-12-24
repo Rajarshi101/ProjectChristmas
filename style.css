@@ -9,3 +9,17 @@ html,body {
   bottom: 0;
   z-index: -1;
 }
+
+@media (min-aspect-ratio: 9/16){
+    .full-screen-video-container video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-aspect-ratio: 9/16){
+    .full-screen-video-container video{
+        width: 100%;
+        height: auto;
+    }
+}

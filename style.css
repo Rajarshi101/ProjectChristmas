@@ -22,7 +22,7 @@ html,body {
     position: absolute;
 }
 
-.ss .glow-on-hover {
+.ss: glow-on-hover {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -34,7 +34,7 @@ html,body {
     z-index: 0;
 }
 
-.ss glow-on-hover:before {
+.ss: glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -51,19 +51,19 @@ html,body {
     border-radius: 50%;
 }
 
-.ss glow-on-hover:active {
+.ss: glow-on-hover:active {
     color: #000
 }
 
-.ss glow-on-hover:active:after {
+.ss: glow-on-hover:active:after {
     background: transparent;
 }
 
-.ss glow-on-hover:hover:before {
+.ss: glow-on-hover:hover:before {
     opacity: 1;
 }
 
-.ss glow-on-hover:after {
+.ss: glow-on-hover:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -81,7 +81,7 @@ html,body {
     position: absolute;
 }
 
-.J4F glow-on-hover {
+.J4F: glow-on-hover {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -93,7 +93,7 @@ html,body {
     z-index: 0;
 }
 
-.J4F glow-on-hover:before {
+.J4F: glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -110,19 +110,19 @@ html,body {
     border-radius: 50%;
 }
 
-.J4F glow-on-hover:active {
+.J4F: glow-on-hover:active {
     color: #000
 }
 
-.J4F glow-on-hover:active:after {
+.J4F: glow-on-hover:active:after {
     background: transparent;
 }
 
-.J4F glow-on-hover:hover:before {
+.J4F: glow-on-hover:hover:before {
     opacity: 1;
 }
 
-.J4F glow-on-hover:after {
+.J4F: glow-on-hover:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -175,5 +175,3 @@ button:hover {
        height: 100%; 
     }
 }
-
-

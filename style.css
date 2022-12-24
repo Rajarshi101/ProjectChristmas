@@ -6,16 +6,3 @@ html,body {
 .full-screen-video-container video{
   position: absolute;
   z-index: -1;
-
-@media (min-aspect-ratio: 9/16) {
-  .full-screen-video-container video{
-    width:100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 9/16) {
-  .full-screen-video-container video{ 
-    width:auto;
-    height: 100%;
-  }
-}

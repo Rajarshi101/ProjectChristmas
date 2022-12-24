@@ -7,7 +7,6 @@ html,body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #000;
 }
 .full-screen-video-container video{
   position: absolute;

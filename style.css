@@ -19,7 +19,7 @@ html,body {
 .J4F{
     left: 50px;
     bottom: 50px;
-    position: relative;
+    justify-content: left;
 }
 .glow-on-hover {
     width: 60px;

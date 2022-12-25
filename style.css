@@ -18,8 +18,9 @@ html,body {
 
 .button{
     left: 50px;
-    bottom: 50px;
+    margin-bottom: 50px;
     position: absolute;
+    display: block;
 }
 
 .glow-on-hover-RnR {

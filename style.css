@@ -16,6 +16,30 @@ html,body {
   width: 100%;
 }
 
+popper {
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.popper {
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #FF1493;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    font-size: xxx-large
+}
+
+.popper:active {
+  transform: scale(1.01);
+}
+
 .button{
     left: 50px;
     bottom: 50px;

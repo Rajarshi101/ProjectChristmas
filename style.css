@@ -17,6 +17,12 @@ html,body {
   width: 100%;
 }
 
+.button{
+    left: 50px;
+    bottom: 50px;
+    position: absolute;
+}
+
 .glow-on-hover-RnR {
     width: 60px;
     height: 60px;
@@ -231,10 +237,6 @@ html,body {
 
 button:hover {
   animation: shake 0.3s;
-}
-
-.mfp-hide{
-    display: none !important;
 }
 
 @keyframes glowing {

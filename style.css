@@ -118,12 +118,6 @@ a:hover + .icon{
   right: -25%;
 }
 
-.btn{
-    left: 50px;
-    bottom: 50px;
-    position: absolute;
-}
-
 .glow-on-hover-RnR {
     width: 60px;
     height: 60px;

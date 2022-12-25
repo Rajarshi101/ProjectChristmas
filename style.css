@@ -238,6 +238,10 @@ button:hover {
   animation: shake 0.3s;
 }
 
+.mfp-hide{
+    display: none !important;
+}
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }

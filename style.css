@@ -17,11 +17,9 @@ html,body {
 }
 
 .button{
-    display: flex;
     left: 50px;
     bottom: 50px;
     position: absolute;
-    flex-direction: column;
 }
 
 .glow-on-hover-RnR {

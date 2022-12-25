@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css">
-    <script src="partypopper.js"></script>
   </head>
   <body>
     <div class="full-screen-video-container">
@@ -10,7 +9,35 @@
         <source src="media/Background Video.mp4" type="video/mp4" />
       </video>
     </div>
-    <div id="root"></div>
+    <div class="wrapper">
+      <div class="link_wrapper">
+        <a href="#" onclick="show('popup')">Wish Card<br>---> Click Me <---</a>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+              <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+            </svg>
+          </div>
+      </div>
+    </div>                                      
+<div class="popup" id="popup">
+  <p>Merry Christmas Ishita !!!</p>
+  <p>And a Happy Happy New Year...</p>
+  <audio controls>
+    <source src="media/Jingle Bells.mp3" type="audio/mp3" /></audio>
+  <a href="#" onclick="hide('popup')">Close</a>
+  <script>
+    $ = function(id) {
+      return document.getElementById(id);
+    }
+
+    var show = function(id) {
+      $(id).style.display ='block';
+    }
+    var hide = function(id) {
+      $(id).style.display ='none';
+    }
+  </script>
+</div>
     <div class="button">
       <a href="https://www.youtube.com/embed/ZnDmmiiFSUU">
         <button class="glow-on-hover-RnR" type="button"><ion-icon name="musical-notes-outline" size="large"></ion-icon></button>
